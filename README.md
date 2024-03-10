@@ -1,5 +1,7 @@
 ### US Flights 2015
 
+This project analyzes the delays and cancellations of domestic flights in the US during 2015.
+
 1. `create.cql` - contains Cassandra Keyspace and tables creation scripts
 2. `ingest.py` - ingesting the data from the csv data set into the CQL DB tables
 3. `cassandra_client.py` - Flights Cassandra client which allow inserting queries smartly or to execute any script into our Flights keyspace
